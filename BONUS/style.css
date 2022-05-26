@@ -16,6 +16,19 @@
     width: 100%;
 }
 
+.img-b{
+    width: 100%;
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.col:hover .img-b{
+    display: block;
+    cursor: pointer;
+}
+
 .bg-green{
     background-color: green;
 }
